@@ -36,21 +36,21 @@ const TabsAndroid = () => {
 
                     switch ( route.name ) {
                         case 'Tab1Screen':
-                            iconName = 'contrast-outline';
+                            iconName = 'T1';
                         break;
                         case 'TobTapNavigator':
-                            iconName = 'hammer-outline';
+                            iconName = 'TN';
                         break;
                         case 'StackNavigator':
-                            iconName = 'apps-outline';
+                            iconName = 'St';
                         break;    
                     }
 
                     // console.log( iconName );
 
                     return (
-                        <Text style={{ color: color }}>
-                            <Icon name={ iconName } size={ 20 } color='white' />
+                        <Text style={{ color: color }}>{ iconName }
+                            {/* <Icon name={ iconName } size={ 20 } color='white' /> */}
                         </Text>
                     );
                 }

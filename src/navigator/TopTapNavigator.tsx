@@ -47,7 +47,7 @@ export const TopTapNavigator = () => {
                             iconName = 'alarm-outline';
                         break;
                         case 'ContactScreen':
-                            iconName = 'balloon-outline';
+                            iconName = 'add-circle';
                         break;
                         case 'AlbumsScreen':
                             iconName = 'checkbox-outline';
